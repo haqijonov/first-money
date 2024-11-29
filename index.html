@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      window.onload = () => {
+        setTimeout(() => {
+          loader.classList.add("loader-wrapper--none");
+        }, 1000);
+      };
+    </script>
+    <title>Kork</title>
+  </head>
+  <body>
+    <div class="loader-wrapper" id="loader">
+      <span class="loader"></span>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
