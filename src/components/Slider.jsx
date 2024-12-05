@@ -1,9 +1,9 @@
-import Ombor from "/assets/png/Ombor.png";
-import Chin from "/assets/png/chin-invest.png";
-import Sherwood from "/assets/png/sherwood-kids.png";
-import Etalon from "/assets/png/Etalon-logo.png";
-import Beshariq from "/assets/png/beshariq-beton.png";
-import Logo from "/assets/png/Sherwood-logo-deisgn.png";
+import India from "/assets/png/india.png";
+import Rossiya from "/assets/png/rassiya.png";
+import Turkiya from "/assets/png/turkey.png";
+import Ukraina from "/assets/png/ukraina.png";
+import Afganistan from "/assets/png/afganistan.png";
+import Pakistan from "/assets/png/pakistan.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -70,49 +70,49 @@ export default function Slider() {
       >
         <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px] bg-[#F5FBFD]">
           <img
-            className="w-[305px] select-none px-[18px] py-[45px]"
-            src={Ombor}
+            className="w-[156px] select-none "
+            src={India}
             alt="Ombor logo"
           />
         </SwiperSlide>
 
         <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px] bg-[#F5FBFD]">
           <img
-            className="w-[305px] select-none px-[18px] py-[50px]"
-            src={Chin}
+            className="w-[305px] pb-[5px] select-none"
+            src={Rossiya}
             alt="chin invest logo"
           />
         </SwiperSlide>
 
-        <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px] bg-[#F5FBFD]">
+        <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px]   bg-[#F5FBFD] ">
           <img
-            className="w-[160px] py-[10px]"
-            src={Sherwood}
+            className=" w-[305px] h-[180px]"
+            src={Turkiya}
             alt="sherwood kids logo"
           />
         </SwiperSlide>
 
         <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px] bg-[#F5FBFD]">
           <img
-            className="w-[305px] select-none px-[18px] py-[51px]"
-            src={Etalon}
+            className="w-[264px] select-none"
+            src={Ukraina}
             alt="Etalon logo"
           />
         </SwiperSlide>
 
         <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px] bg-[#F5FBFD]">
           <img
-            className="w-[305px] select-none px-[18px] py-[36px]"
-            src={Beshariq}
+            className="w-[285px] select-none "
+            src={Afganistan}
             alt="Beshariq beton logo"
           />
         </SwiperSlide>
 
         <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px] bg-[#F5FBFD]">
           <img
-            className="w-[305px] select-none px-[18px] py-[16px]"
-            src={Logo}
-            alt=""
+            className="w-[196px] select-none "
+            src={Pakistan}
+            alt="pakistan"
           />
         </SwiperSlide>
       </Swiper>

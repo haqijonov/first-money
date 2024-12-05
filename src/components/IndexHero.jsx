@@ -1,7 +1,7 @@
 import React, { useRef, useState, useTransition } from "react";
-import Mijozlar from "/assets/png/mijozlar.png";
-import Hodimlar from "/assets/png/Rectangle-2.png";
-import Kiyimlar from "/assets/png/maxsus-kiyimlar.png";
+import TerishJarayoni from "../../public/assets/png/terish.png";
+import Qadoqlash from "../../public/assets/png/qaddoqlash.png";
+import Export from "../../public/assets/png/export-jarayoni.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -20,17 +20,17 @@ export default function IndexHero() {
   const { t } = useTranslation();
   const sliderCard = [
     {
-      bg: Mijozlar,
+      bg: TerishJarayoni,
       title: t("mainText"),
       button: t("connection"),
     },
     {
-      bg: Hodimlar,
+      bg: Qadoqlash,
       title: t("mainText2"),
       button: t("connection"),
     },
     {
-      bg: Kiyimlar,
+      bg: Export,
       title: t("mainText3"),
       button: t("connection"),
     },
@@ -66,7 +66,7 @@ export default function IndexHero() {
                   />
                   <div className="absolute left-7 top-0 flex flex-col items-center gap-2 pb-[0px] pl-[10px] pr-[50px] pt-[27px] sm:flex-row-reverse lg:gap-[20px] lg:pl-[120px] lg:pr-[100px] lg:pt-[40px]">
                     <div>
-                      <h2 className=" mb-6 mt-[140px] text-[20px] font-bold text-white md:w-[867px] lg:text-[40px]">
+                      <h2 className=" mb-6 mt-[140px]  text-[20px] font-bold text-white md:w-[867px] lg:text-[40px]">
                         {t(title)}
                       </h2>
                       <button

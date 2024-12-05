@@ -1,5 +1,5 @@
-import KidsShirt from "/assets/jpg/shirt-kids.jpg";
-import Flag from "/assets/jpg/sherwood-flag.jpg";
+import olmaQadoqlash from "/assets/png/olmaQadoqlash.png";
+import Qadoqlash1 from "/assets/png/qadoqlash1.png";
 import Vadalaska from "/assets/jpg/vadalaska.jpg";
 import ChikakoCap from "/assets/jpg/chicaco-cap.jpg";
 import { useTranslation } from "react-i18next";
@@ -30,10 +30,10 @@ export default function FooterProducts() {
   const { t } = useTranslation();
   const cards = [
     {
-      img: KidsShirt,
+      img: olmaQadoqlash,
     },
     {
-      img: Flag,
+      img: Qadoqlash1,
     },
     {
       img: Vadalaska,
