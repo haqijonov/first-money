@@ -18,14 +18,15 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col items-end gap-2">
-            <a className="btn-orange mb-3" href="tel:+998910553300">
+            <a className="btn-orange mb-3" href="tel:+998907878907">
               {t("connection")}
             </a>
             <a
               className="flex items-center gap-1 text-[12px] no-underline"
-              href="tel:+998910553300"
+              href="tel:+998907878907
+"
             >
-              <span className="font-medium">+998 91 055 3300</span>
+              <span className="font-medium">+99890 787 89 07</span>
             </a>
           </div>
         </div>

@@ -57,7 +57,7 @@ export default function Header() {
         </a>
         <a
           className="mr-6 hidden items-center gap-1 text-base font-medium md:flex"
-          href="tel:+998910553300"
+          href="tel:+998907878907"
         >
           <img
             className="h-5 w-5"
@@ -65,7 +65,7 @@ export default function Header() {
             alt=""
             aria-hidden="true"
           />
-          +998 91 055 33 00
+          +99890 787 89 07
         </a>
         <div className="hidden md:block">
           <LanguageToggler />
@@ -78,7 +78,7 @@ export default function Header() {
         </a>
         <a
           className="btn-orange hidden w-[200px] md:block"
-          href="tel:+998910553300"
+          href="tel:+998907878907"
         >
           {t("connection")}
         </a>
