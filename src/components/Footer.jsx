@@ -23,8 +23,7 @@ export default function Footer() {
             </a>
             <a
               className="flex items-center gap-1 text-[12px] no-underline"
-              href="tel:+998907878907
-"
+              href="tel:+998907878907"
             >
               <span className="font-medium">+99890 787 89 07</span>
             </a>
@@ -37,7 +36,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center justify-between border-t-[1.15px] border-footer-border-cl py-5 text-[12px]">
           <span className="flex flex-col gap-5 lg:flex-row">
-            <span>kork</span>
+            <span>An Apple</span>
             <span>
               <small className="font-medium">&copy;</small>{" "}
               {new Date().getFullYear()} {t("privacy")}

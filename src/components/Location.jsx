@@ -9,7 +9,7 @@ export default function Location() {
       </h2>
       <iframe
         className="h-[206px] w-full rounded-2xl border border-location-iframe-border-cl md:h-[602px]"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.78454321726818!2d70.6225811112354!3d40.440902688100444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ba919153d81f8b%3A0xf3a6a87217f1c9a5!2sSherwood%20Dizayn!5e0!3m2!1sru!2s!4v1712044093883!5m2!1sru!2s"
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.639770330766!2d71.7331316767049!3d40.2170753714725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb917b3af56091%3A0x4dfec885deafa272!2sILG&#39;OR%20Q.F.Y!5e0!3m2!1sen!2s!4v1733402432432!5m2!1sen!2s"
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
@@ -17,3 +17,4 @@ export default function Location() {
     </div>
   );
 }
+

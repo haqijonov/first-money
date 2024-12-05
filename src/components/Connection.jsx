@@ -8,14 +8,14 @@ export default function Connection() {
     {
       img: Email,
       title: t("email"),
-      text: "korksupport@gmail.com",
-      path: "mailto:korksupport@gmail.com",
+      text: " jamshidbekkomilovich@gmail.com",
+      path: "mailto: jamshidbekkomilovich@gmail.com",
     },
     {
       img: Phone,
       title: t("telephone"),
-      text: "+998 91 055 33 00",
-      path: "tel:+998910553300",
+      text: "+99890 787 89 07",
+      path: "tel:+998907878907",
     },
     {
       img: Location,
