@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link, NavLink } from "react-router-dom";
 import Socials from "./Socials";
-import Logo from "/assets/png/footer-logo.png";
+import Logo from "/assets/png/whiteLogo.png";
 import Links from "./Links";
 
 export default function Footer() {

@@ -5,7 +5,7 @@ import PhoneMinIcon from "/assets/svg/phone-min.svg";
 import Location from "/assets/svg/location.svg";
 import ArrowLeft from "/assets/svg/arrow-left.svg";
 import Burger from "/assets/svg/burger.svg";
-import Logo from "/assets/png/header-logo.png";
+import Logo from "/assets/png/anAppleCompny.png";
 import { useTranslation } from "react-i18next";
 import { useRef } from "react";
 import LanguageToggler from "./LanguageToggler";
@@ -43,13 +43,13 @@ export default function Header() {
   }
 
   return (
-    <header id="header" className="bg-white pb-3 pt-16 md:pt-[26px]">
+    <header id="header" className="bg-white pb-3 pt-2 ">
       <div className="base-container flex items-center">
         <Link className="mr-auto " to="/">
           <img
-            className="h-8 w-[104px] object-contain lg:h-[45px] lg:w-[177px]"
+            className="h-8 w-[104px] object-contain lg:h-[150px] lg:w-[148px]"
             src={Logo}
-            alt="Kork logo"
+            alt="Anapp"
           />
         </Link>
         <a className="btn-orange-phone mr-3 md:hidden" href="tel:+998910553300">

@@ -1,6 +1,6 @@
 import olmaQadoqlash from "/assets/png/olmaQadoqlash.png";
 import Qadoqlash1 from "/assets/png/qadoqlash1.png";
-import Vadalaska from "/assets/jpg/vadalaska.jpg";
+import Machine from "/assets/png/machine.png";
 import ChikakoCap from "/assets/jpg/chicaco-cap.jpg";
 import { useTranslation } from "react-i18next";
 
@@ -36,7 +36,7 @@ export default function FooterProducts() {
       img: Qadoqlash1,
     },
     {
-      img: Vadalaska,
+      img: Machine,
     },
     {
       img: ChikakoCap,
