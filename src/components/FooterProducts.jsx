@@ -1,7 +1,7 @@
 import olmaQadoqlash from "/assets/png/olmaQadoqlash.png";
 import Qadoqlash1 from "/assets/png/qadoqlash1.png";
 import Machine from "/assets/png/machine.png";
-import ChikakoCap from "/assets/jpg/chicaco-cap.jpg";
+import MachineApple from "/assets/png/machineApple.png";
 import { useTranslation } from "react-i18next";
 
 //
@@ -39,7 +39,7 @@ export default function FooterProducts() {
       img: Machine,
     },
     {
-      img: ChikakoCap,
+      img: MachineApple,
     },
   ];
   return (
