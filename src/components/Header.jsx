@@ -52,7 +52,7 @@ export default function Header() {
             alt="Anapp"
           />
         </Link>
-        <a className="btn-orange-phone mr-3 md:hidden" href="tel:+998910553300">
+        <a className="btn-orange-phone mr-3 md:hidden" href="tel:+998907878907">
           {t("connection")}
         </a>
         <a
@@ -173,7 +173,7 @@ export default function Header() {
                   className="text-sm font-normal"
                   href="mailto:korksupport@gmail.com"
                 >
-                  korksupport@gmail.com
+                  jamshidbekkomilovich@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
