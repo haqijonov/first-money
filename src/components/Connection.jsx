@@ -46,6 +46,7 @@ export default function Connection() {
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-black">{title}</h3>
                 <p className="text-sm font-medium">{text}</p>
+                {/* Commit */}
               </li>
             </a>
           );
