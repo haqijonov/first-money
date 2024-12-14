@@ -5,6 +5,7 @@ export default {
     fontFamily: {
       montserrat: ["Montserrat", "Arial", "sans-serif"],
       poppins: ["Poppins", "Arial", "sans-serif"],
+      pacifico: ["Pacifico", "cursive"],
     },
     backgroundImage: {
       "contact-hero-image": "url('/assets/png/contact-hero-bg.png')",
@@ -20,9 +21,9 @@ export default {
     },
     extend: {},
     colors: {
-      "mobile-header-cl": "#4caf50",
-      "footer-mobile-cl": "#5b4028",
-      "footer-desktop-cl": "#9e8670",
+      "mobile-header-cl": "#7ED4AD",
+      "footer-mobile-cl": "#7ED4AD",
+      "footer-desktop-cl": "#7ED4AD",
       "light-gray": "#fcfcff",
       "socials-icon-cl": "rgba(203, 203, 203, 0.23)",
       "footer-border-cl": "#d1d1d1",

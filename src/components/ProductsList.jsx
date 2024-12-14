@@ -3,63 +3,62 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Olma from '../../public/assets/png/apple.png'
-import Anor from '../../public/assets/png/anor.png'
-import Anjir from '../../public/assets/png/anjir.png'
-import Orik from '../../public/assets/png/orik.png'
-import Malina from '../../public/assets/png/malina.png'
-import Limon from '../../public/assets/png/limon.png'
-import QizilShaftoli from '../../public/assets/png/qizil-shaftoli.png'
-import Uzum from '../../public/assets/png/uzum.png'
+import Olma from "../../public/assets/png/apple.png";
+import Anor from "../../public/assets/png/anor.png";
+import qurutilganorik from "../../public/assets/png/quritilganorik.png";
+import Orik from "../../public/assets/png/orik.png";
+import holmeva from "../../public/assets/png/holmeva.png";
+import quruqmeva from "../../public/assets/png/quruqmeva.png";
+import QizilShaftoli from "../../public/assets/png/qizil-shaftoli.png";
+import Uzum from "../../public/assets/png/uzum.png";
 
-const mevalar = [{
-id:1,
-mainImg: Olma,
-title: "Olma",
-slug:"Olma",
-info:{
-  data:"Olmaning FUJION navi",
-  thumbnails:[Olma]
-
-}
-},
-{
-  id:2,
-  mainImg: Anor,
-  title: "Anor",
-  
+const mevalar = [
+  {
+    id: 1,
+    mainImg: Olma,
+    title: "Olma",
+    slug: "Olma",
+    info: {
+      data: "Olmaning FUJION navi",
+      thumbnails: [Olma],
+    },
   },
-{
-    id:3,
-    mainImg: Anjir,
-    title: "Anjir"
+  {
+    id: 2,
+    mainImg: Anor,
+    title: "Anor",
   },
-{
-      id:4,
-      mainImg: Orik,
-      title: "O'rik"
+  {
+    id: 3,
+    mainImg: qurutilganorik,
+    title: "O'rik",
   },
-{
-  id:5,
-  mainImg: Malina,
-  title: "Malina"
+  {
+    id: 4,
+    mainImg: Orik,
+    title: "O'rik",
   },
-{
-  id:6,
-  mainImg: QizilShaftoli,
-  title: "Qizil shaftoli"
+  {
+    id: 5,
+    mainImg: holmeva,
+    title: "O'rik",
   },
-{
-  id:7,
-  mainImg: Uzum,
-  title: "Uzum"
+  {
+    id: 6,
+    mainImg: QizilShaftoli,
+    title: "Qizil shaftoli",
   },
-{
- id:8,
- mainImg: Limon,
- title: "Lemon"
- }]
-            
+  {
+    id: 7,
+    mainImg: Uzum,
+    title: "Uzum",
+  },
+  {
+    id: 8,
+    mainImg: quruqmeva,
+    title: "O'rik",
+  },
+];
 
 const container = {
   hidden: { opacity: 1, scale: 0 },

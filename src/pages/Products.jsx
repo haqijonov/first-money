@@ -8,7 +8,7 @@ export default function Products() {
 
   return (
     <div className="pt-12">
-      <h2 className="mb-[30px] md:mb-0 text-center text-2xl font-semibold text-orange  md:text-4xl">
+      <h2 className="mb-[30px] text-center text-2xl font-semibold text-orange md:mb-0  md:text-4xl">
         {t("products")}
       </h2>
       <ProductsList />
@@ -21,7 +21,7 @@ export default function Products() {
         </p>
       </div>
       <FooterProducts />
-      <Cooperation />
+      {/* <Cooperation /> */}
     </div>
   );
 }

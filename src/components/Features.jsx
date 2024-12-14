@@ -1,7 +1,7 @@
-import User from "/assets/svg/user-min.svg";
-import Truck from "/assets/svg/truck-min.svg";
-import Speed from "/assets/svg/speed-min.svg";
-import Kafolat from "/assets/svg/kafolat-min.svg";
+import User from "/assets/svg/userrrr.png";
+import Truck from "/assets/svg/shipped.png";
+import Speed from "/assets/svg/rush.png";
+import Kafolat from "/assets/svg/kafolat.png";
 import { useTranslation } from "react-i18next";
 export default function Features() {
   const { t } = useTranslation();
@@ -38,7 +38,7 @@ export default function Features() {
             >
               <div className="mb-[18px] flex h-[58px] w-[58px] items-center justify-center rounded-[8px] bg-orange_20 lg:h-16 lg:w-[70px]">
                 <img
-                  className=" w-8 object-contain lg:w-[32px] "
+                  className="w-8 object-contain text-white lg:w-[32px] "
                   src={img}
                   alt={title}
                 />

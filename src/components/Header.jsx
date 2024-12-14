@@ -1,11 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
+import { useEffect } from "react";
 
 // Images
-import PhoneMinIcon from "/assets/svg/phone-min.svg";
-import Location from "/assets/svg/location.svg";
+import PhoneMinIcon from "/assets/svg/telephoneGreen.png";
+import Location from "/assets/svg/locationGreen.png";
 import ArrowLeft from "/assets/svg/arrow-left.svg";
 import Burger from "/assets/svg/burger.svg";
-import Logo from "/assets/png/anAppleCompny.png";
+import Logo from "/assets/png/green logo.png";
 import { useTranslation } from "react-i18next";
 import { useRef } from "react";
 import LanguageToggler from "./LanguageToggler";
@@ -43,21 +44,20 @@ export default function Header() {
   }
 
   return (
-    <header id="header" className="bg-white pb-3 pt-2 ">
+    <header id="header" className="bg-white pb-4 pt-4 ">
       <div className="base-container flex items-center">
-        <Link className="mr-auto " to="/">
-          <img
-            className="h-8 w-[104px] object-contain lg:h-[150px] lg:w-[148px]"
-            src={Logo}
-            alt="Anapp"
-          />
+        <Link
+          className="font-pacifico mr-auto text-[22px] text-orange md:text-[32px]"
+          to="/"
+        >
+          Kazim Ogli Agro
         </Link>
-        <a className="btn-orange-phone mr-3 md:hidden" href="tel:+998907878907">
+        <a className="btn-orange-phone mr-3 md:hidden" href="tel:+998903698777">
           {t("connection")}
         </a>
         <a
           className="mr-6 hidden items-center gap-1 text-base font-medium md:flex"
-          href="tel:+998907878907"
+          href="tel:+998903698777"
         >
           <img
             className="h-5 w-5"
@@ -65,20 +65,20 @@ export default function Header() {
             alt=""
             aria-hidden="true"
           />
-          +99890 787 89 07
+          +99890 369 87 77
         </a>
         <div className="hidden md:block">
           <LanguageToggler />
         </div>
         <a
-          className="relative ml-5 mr-5 hidden h-[43px] w-[43px] rounded-md transition active:scale-90 active:opacity-90 md:block"
+          className="relative ml-5 mr-5 hidden  rounded-md transition active:scale-90 active:opacity-90 md:block"
           href="#location"
         >
           <img src={Location} alt="Location" aria-hidden="true" />
         </a>
         <a
           className="btn-orange hidden w-[200px] md:block"
-          href="tel:+998907878907"
+          href="tel:+998903698777"
         >
           {t("connection")}
         </a>
@@ -183,8 +183,8 @@ export default function Header() {
                   src="./assets/svg/phone-min.svg"
                   alt="tel-icon"
                 />
-                <a className="text-sm font-normal" href="tel:+998910553300">
-                  +998 91 055 33 00
+                <a className="text-sm font-normal" href="tel:+998903698777">
+                  +99890 369 87 77
                 </a>
               </div>
               <div className="mb-8 flex items-center gap-3">
@@ -194,7 +194,7 @@ export default function Header() {
                   src="./assets/svg/location-min.svg"
                   alt="location"
                 />
-                <p>{t("addressLocation")}uy@gmail.com</p>
+                <p>{t("addressLocation")}@gmail.com</p>
               </div>
             </div>
           </div>

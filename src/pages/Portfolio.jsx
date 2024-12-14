@@ -14,8 +14,13 @@ import { Autoplay, Navigation } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Portfolio() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/");
+  }, []);
   const { t } = useTranslation();
   const [mobile, setMobile] = useState(false);
   useEffect(() => {

@@ -1,7 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import Connection from "../components/Connection";
 import Location from "../components/Location";
 import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 export default function Contact() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/");
+  }, []);
   const { t } = useTranslation();
   return (
     <div>

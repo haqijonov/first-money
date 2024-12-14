@@ -6,7 +6,7 @@ export default function ConnectionFixed() {
     <div className="base-container">
       <div className="fixed bottom-[10px] right-[20px] z-50 md:bottom-[30px] md:right-[30px]">
         <div className="flex items-center gap-3 md:gap-4">
-          <a href="tel:+998910553300">
+          <a href="tel:+998903698777">
             <button className="animate__animated animate__infinite animate__bounceIn animate__slower flex h-12 w-12 cursor-pointer items-center justify-center rounded-[50%] bg-orange text-2xl text-white  hover:bg-location-iframe-border-cl hover:duration-700 md:h-16 md:w-16 md:text-3xl ">
               <HiOutlinePhoneArrowUpRight />
             </button>

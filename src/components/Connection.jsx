@@ -1,6 +1,6 @@
-import Email from "/assets/svg/email-min.svg";
-import Phone from "/assets/svg/phone-min.svg";
-import Location from "/assets/svg/location-min.svg";
+import Email from "/assets/png/mail.png";
+import Phone from "/assets/png/telephone.png";
+import Location from "/assets/png/location.png";
 import { useTranslation } from "react-i18next";
 export default function Connection() {
   const { t } = useTranslation();
@@ -14,8 +14,8 @@ export default function Connection() {
     {
       img: Phone,
       title: t("telephone"),
-      text: "+99890 787 89 07",
-      path: "tel:+998907878907",
+      text: "+99890 369 87 77",
+      path: "tel:+998903698777",
     },
     {
       img: Location,

@@ -5,8 +5,14 @@ import Cooperation from "../components/Cooperation";
 import FooterProducts from "../components/FooterProducts";
 import OurCustomers from "../components/OurCustomers";
 import ProductsList from "../components/ProductsList";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function About() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/");
+  }, []);
   const { t } = useTranslation();
   return (
     <div>
@@ -30,9 +36,7 @@ export default function About() {
         </p>
       </div>
       <OurCustomers />
-      <div className="base-container mb-5 md:mb-9">
-    
-      </div>
+      <div className="base-container mb-5 md:mb-9"></div>
       <FooterProducts />
       <Cooperation />
     </div>

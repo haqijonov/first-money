@@ -69,14 +69,14 @@ export default function IndexHero() {
                       <h2 className=" mb-6 mt-[140px]  text-[20px] font-bold text-white md:w-[867px] lg:text-[40px]">
                         {t(title)}
                       </h2>
-                      <button
+                      {/* <button
                         onClick={() => {
                           contactModal.classList.toggle("show");
                         }}
                         className="btn-orange w-[250px] text-sm font-medium sm:text-lg lg:w-[304px]"
                       >
                         {button}
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </SwiperSlide>

@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link, NavLink } from "react-router-dom";
 import Socials from "./Socials";
-import Logo from "/assets/png/whiteLogo.png";
+// import Logo from "/assets/png/whiteLogo.png";
 import Links from "./Links";
 
 export default function Footer() {
@@ -11,21 +11,23 @@ export default function Footer() {
       <div className="base-container">
         <div className="mb-5 flex justify-between">
           <div className="flex flex-col items-start gap-2">
-            <Link to="/">
-              <img src={Logo} alt="Kork logo" width="109" height="35" />
+            <Link
+              className="font-pacifico text-[22px] text-white md:text-[32px]"
+              to="/"
+            >
+              Kazim Ogli Agro
             </Link>
-            <span className="font-semibold">{t("korkCompany")}</span>
           </div>
 
           <div className="flex flex-col items-end gap-2">
-            <a className="btn-orange mb-3" href="tel:+998907878907">
+            <a className="btn-orange mb-3" href="tel:+79221334466">
               {t("connection")}
             </a>
             <a
               className="flex items-center gap-1 text-[12px] no-underline"
-              href="tel:+998907878907"
+              href="tel:+79221334466"
             >
-              <span className="font-medium">+99890 787 89 07</span>
+              <span className="font-medium">+79221334466</span>
             </a>
           </div>
         </div>

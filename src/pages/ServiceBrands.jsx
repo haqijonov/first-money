@@ -2,8 +2,14 @@ import { useTranslation } from "react-i18next";
 import OurCustomers from "../components/OurCustomers";
 import FooterProducts from "../components/FooterProducts";
 import Cooperation from "../components/Cooperation";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function ServiceBrands() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/");
+  }, [location.pathname]);
   const { t } = useTranslation();
   return (
     <div className="pt-12">

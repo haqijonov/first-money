@@ -9,7 +9,7 @@ export default function Location() {
       </h2>
       <iframe
         className="h-[206px] w-full rounded-2xl border border-location-iframe-border-cl md:h-[602px]"
-       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.639770330766!2d71.7331316767049!3d40.2170753714725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb917b3af56091%3A0x4dfec885deafa272!2sILG&#39;OR%20Q.F.Y!5e0!3m2!1sen!2s!4v1733402432432!5m2!1sen!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2875.1604557020787!2d71.79704448104115!3d40.384559404733515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb837d6c16bebf%3A0x464a8d6a0eba1a48!2sUzbekistan%20ovozi%20Street%2C%20Fergana%2C%20Fergana%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1734179104247!5m2!1sen!2s"
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
@@ -17,4 +17,3 @@ export default function Location() {
     </div>
   );
 }
-

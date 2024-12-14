@@ -4,17 +4,17 @@ import Instagram from "/assets/svg/instagram-min.svg";
 export default function Socials() {
   const socials = [
     {
-      path: "https://www.youtube.com/@kork_factory/featured",
+      path: "/",
       icon: YouTube,
       title: "YouTube",
     },
     {
-      path: "https://www.facebook.com/profile.php?id=61558070602925",
+      path: "/",
       icon: Facebook,
       title: "Facebook",
     },
     {
-      path: "https://www.instagram.com/kork_factory?igsh=MTd3d2JyNTJ2Zjd2aA%3D%3D",
+      path: "/",
       icon: Instagram,
       title: "Instagram",
     },
