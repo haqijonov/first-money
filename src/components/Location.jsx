@@ -7,13 +7,37 @@ export default function Location() {
       <h2 className="mb-7 text-center text-2xl font-semibold text-orange sm:mb-10 sm:text-4xl">
         {t("location")}
       </h2>
-      <iframe
-        className="h-[206px] w-full rounded-2xl border border-location-iframe-border-cl md:h-[602px]"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2875.1604557020787!2d71.79704448104115!3d40.384559404733515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb837d6c16bebf%3A0x464a8d6a0eba1a48!2sUzbekistan%20ovozi%20Street%2C%20Fergana%2C%20Fergana%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1734179104247!5m2!1sen!2s"
-        allowFullScreen
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <div style={{ position: "relative", overflow: "hidden" }}>
+        <a
+          href="https://yandex.uz/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps"
+          style={{
+            color: "#eee",
+            fontSize: "12px",
+            position: "absolute",
+            top: "0px",
+          }}
+        >
+          Ташкент
+        </a>
+        <a
+          href="https://yandex.uz/maps/10335/tashkent/house/YkAYdQRhTEMHQFprfX5yeHRhZw==/?ll=69.332005%2C41.239593&utm_medium=mapframe&utm_source=maps&z=19.54"
+          style={{
+            color: "#eee",
+            fontSize: "12px",
+            position: "absolute",
+            top: "14px",
+          }}
+        >
+          Фергана Йули, 6 — Яндекс Карты
+        </a>
+        <iframe
+          src="https://yandex.uz/map-widget/v1/?ll=71.799965%2C40.384524&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTIyNDk2ODM0EjVPyrt6YmVraXN0b24sIEZhcmfKu29uYSwgT8q7emJla2lzdG9uIE92b3ppIGtvyrtjaGFzaSIKDVWZj0IV2YkhQg%2C%2C&z=20.04"
+          height="400"
+          frameBorder="1"
+          allowFullScreen
+          style={{ position: "relative", width: "100%" }}
+        ></iframe>
+      </div>
     </div>
   );
 }

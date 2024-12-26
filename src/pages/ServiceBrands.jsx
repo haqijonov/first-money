@@ -28,7 +28,7 @@ export default function ServiceBrands() {
         </p>
       </div>
       <FooterProducts />
-      <Cooperation />
+      {/* <Cooperation /> */}
     </div>
   );
 }

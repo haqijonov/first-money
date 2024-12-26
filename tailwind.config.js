@@ -8,7 +8,7 @@ export default {
       pacifico: ["Pacifico", "cursive"],
     },
     backgroundImage: {
-      "contact-hero-image": "url('/assets/png/contact-hero-bg.png')",
+      "contact-hero-image": "url('/assets/png/export-jarayoni.png')",
       "contact-hero-image-phone":
         "url('/assets/png/contact-hero-phone-bg.png')",
 

@@ -83,11 +83,7 @@ export default function Portfolio() {
         </SwiperSlide>
 
         <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px] bg-[#F5FBFD]">
-          <img
-            className="w-[405px] select-none "
-            src={Flag}
-            alt="chin invest logo"
-          />
+          <img className="w-[405px] select-none " src={Flag} alt="my-logo" />
         </SwiperSlide>
 
         <SwiperSlide className="mx-auto flex items-center justify-center rounded-[10px] bg-[#F5FBFD]">

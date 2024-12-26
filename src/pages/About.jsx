@@ -38,7 +38,7 @@ export default function About() {
       <OurCustomers />
       <div className="base-container mb-5 md:mb-9"></div>
       <FooterProducts />
-      <Cooperation />
+      {/* <Cooperation /> */}
     </div>
   );
 }
