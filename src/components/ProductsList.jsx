@@ -14,7 +14,7 @@ import Uzum from "../../public/assets/png/uzum.png";
 import qurutilganOrik from "../../public/assets/png/qurutilganOrik.png";
 import bodom from "../../public/assets/png/bodom.png";
 import newOlma from "../../public/assets/png/newOlma.png";
-import newYashilOlma from "../../public/assets/png/newYashilOLma.png";
+import newYashilolma from "../../public/assets/png/newYashilolma.png";
 import newSariqOlma from "../../public/assets/png/newSariqOlma.png";
 import newBodom from "../../public/assets/png/newBodom.png";
 import newYongoq from "../../public/assets/png/newYongoq.png";
@@ -83,7 +83,7 @@ const mevalar = [
   },
   {
     id: 12,
-    mainImg: newYashilOlma,
+    mainImg: newYashilolma,
     title: "Yashil Olma",
   },
   {
