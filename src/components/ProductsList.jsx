@@ -19,8 +19,6 @@ import newSariqOlma from "../../public/assets/png/newSariqOlma.png";
 import newBodom from "../../public/assets/png/newBodom.png";
 import newYongoq from "../../public/assets/png/newYongoq.png";
 import newPista from "../../public/assets/png/newPista.png";
-import newQoqi from "../../public/assets/png/newQoqi.png";
-import newQopdagiQoqi from "../../public/assets/png/newQopdagiQoqi.png";
 
 const mevalar = [
   {
