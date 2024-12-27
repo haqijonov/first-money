@@ -71,41 +71,41 @@ const mevalar = [
     mainImg: qurutilganOrik,
     title: "O'rik",
   },
-  {
-    id: 10,
-    mainImg: bodom,
-    title: "bodom",
-  },
-  {
-    id: 11,
-    mainImg: newOlma,
-    title: "Qizil Olma",
-  },
-  {
-    id: 12,
-    mainImg: newYashilolma,
-    title: "Yashil Olma",
-  },
-  {
-    id: 13,
-    mainImg: newSariqOlma,
-    title: "Sariq Olma",
-  },
-  {
-    id: 14,
-    mainImg: newBodom,
-    title: "Yer Yong'oq",
-  },
-  {
-    id: 15,
-    mainImg: newYongoq,
-    title: "Yong'oq",
-  },
-  {
-    id: 16,
-    mainImg: newPista,
-    title: "Pista",
-  },
+  // {
+  //   id: 10,
+  //   mainImg: bodom,
+  //   title: "bodom",
+  // },
+  // {
+  //   id: 11,
+  //   mainImg: newOlma,
+  //   title: "Qizil Olma",
+  // },
+  // {
+  //   id: 12,
+  //   mainImg: newYashilolma,
+  //   title: "Yashil Olma",
+  // },
+  // {
+  //   id: 13,
+  //   mainImg: newSariqOlma,
+  //   title: "Sariq Olma",
+  // },
+  // {
+  //   id: 14,
+  //   mainImg: newBodom,
+  //   title: "Yer Yong'oq",
+  // },
+  // {
+  //   id: 15,
+  //   mainImg: newYongoq,
+  //   title: "Yong'oq",
+  // },
+  // {
+  //   id: 16,
+  //   mainImg: newPista,
+  //   title: "Pista",
+  // },
 ];
 
 const container = {
