@@ -71,16 +71,16 @@ const mevalar = [
     mainImg: qurutilganOrik,
     title: "O'rik",
   },
-  // {
-  //   id: 10,
-  //   mainImg: bodom,
-  //   title: "bodom",
-  // },
-  // {
-  //   id: 11,
-  //   mainImg: newOlma,
-  //   title: "Qizil Olma",
-  // },
+  {
+    id: 10,
+    mainImg: bodom,
+    title: "bodom",
+  },
+  {
+    id: 11,
+    mainImg: newOlma,
+    title: "Qizil Olma",
+  },
   // {
   //   id: 12,
   //   mainImg: newYashilolma,
