@@ -17,7 +17,7 @@ import newOlma from "../../public/assets/png/newOlma.png";
 import yashilolma from "../../public/assets/png/yashilolma.png";
 import sariqolma from "../../public/assets/png/sariqolma.png";
 import yeryongoq from "../../public/assets/png/yeryongoq.png";
-import yongoq from "../../public/assets/png/yongoq.png";
+import yongoq from "../../public/assets/png/yongok.png";
 import pista from "../../public/assets/png/pista.png";
 
 const mevalar = [
