@@ -13,10 +13,14 @@ import axios from "axios";
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 export default function SinglePage() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/");
+  }, [location.pathname]);
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const { t } = useTranslation();
 
@@ -43,7 +47,7 @@ export default function SinglePage() {
 
   return (
     <div className="base-container mb-20">
-      <div className="transitionhover:text-white mb-5 flex w-[90px] items-center gap-2 rounded-md bg-socials-icon-cl px-4 py-2 hover:bg-[#000]  transition duration-300 hover:bg-opacity-30  md:mb-8 md:w-28">
+      <div className="transitionhover:text-white mb-5 flex w-[90px] items-center gap-2 rounded-md bg-socials-icon-cl px-4 py-2 transition  duration-300 hover:bg-[#000] hover:bg-opacity-30  md:mb-8 md:w-28">
         <img className="back  w-[6px] md:w-[9px]" src={arrow} alt="" />
         <Link to={"/products"} className="text-base font-semibold  md:text-xl ">
           back
