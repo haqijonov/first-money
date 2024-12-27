@@ -15,10 +15,10 @@ import qurutilganOrik from "../../public/assets/png/qurutilganOrik.png";
 import bodom from "../../public/assets/png/bodom.png";
 import newOlma from "../../public/assets/png/newOlma.png";
 import yashilolma from "../../public/assets/png/yashilolma.png";
-// import newSariqOlma from "../../public/assets/png/newSariqOlma.png";
-// import newBodom from "../../public/assets/png/newBodom.png";
-// import newYongoq from "../../public/assets/png/newYongoq.png";
-// import newPista from "../../public/assets/png/newPista.png";
+import sariqolma from "../../public/assets/png/sariqolma.png";
+import yeryongoq from "../../public/assets/png/yeryongoq.png";
+import yongoq from "../../public/assets/png/yongoq.png";
+import pista from "../../public/assets/png/pista.png";
 
 const mevalar = [
   {
@@ -86,26 +86,26 @@ const mevalar = [
     mainImg: yashilolma,
     title: "Yashil Olma",
   },
-  // {
-  //   id: 13,
-  //   mainImg: newSariqOlma,
-  //   title: "Sariq Olma",
-  // },
-  // {
-  //   id: 14,
-  //   mainImg: newBodom,
-  //   title: "Yer Yong'oq",
-  // },
-  // {
-  //   id: 15,
-  //   mainImg: newYongoq,
-  //   title: "Yong'oq",
-  // },
-  // {
-  //   id: 16,
-  //   mainImg: newPista,
-  //   title: "Pista",
-  // },
+  {
+    id: 13,
+    mainImg: sariqolma,
+    title: "Sariq Olma",
+  },
+  {
+    id: 14,
+    mainImg: yeryongoq,
+    title: "Yer Yong'oq",
+  },
+  {
+    id: 15,
+    mainImg: yongoq,
+    title: "Yong'oq",
+  },
+  {
+    id: 16,
+    mainImg: pista,
+    title: "Pista",
+  },
 ];
 
 const container = {
