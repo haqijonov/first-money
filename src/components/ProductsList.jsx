@@ -14,7 +14,7 @@ import Uzum from "../../public/assets/png/uzum.png";
 import qurutilganOrik from "../../public/assets/png/qurutilganOrik.png";
 import bodom from "../../public/assets/png/bodom.png";
 import newOlma from "../../public/assets/png/newOlma.png";
-// import newYashilolma from "../../public/assets/png/newYashilolma.png";
+import yashilolma from "../../public/assets/png/yashilolma.png";
 // import newSariqOlma from "../../public/assets/png/newSariqOlma.png";
 // import newBodom from "../../public/assets/png/newBodom.png";
 // import newYongoq from "../../public/assets/png/newYongoq.png";
@@ -81,11 +81,11 @@ const mevalar = [
     mainImg: newOlma,
     title: "Qizil Olma",
   },
-  // {
-  //   id: 12,
-  //   mainImg: newYashilolma,
-  //   title: "Yashil Olma",
-  // },
+  {
+    id: 12,
+    mainImg: yashilolma,
+    title: "Yashil Olma",
+  },
   // {
   //   id: 13,
   //   mainImg: newSariqOlma,
