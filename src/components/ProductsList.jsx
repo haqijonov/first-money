@@ -12,13 +12,13 @@ import quruqmeva from "../../public/assets/png/quruqmeva.png";
 import QizilShaftoli from "../../public/assets/png/qizil-shaftoli.png";
 import Uzum from "../../public/assets/png/uzum.png";
 import qurutilganOrik from "../../public/assets/png/qurutilganOrik.png";
-import bodom from "../../public/assets/png/bodom.png";
-import newOlma from "../../public/assets/png/newOlma.png";
-import newYashilolma from "../../public/assets/png/newYashilolma.png";
-import newSariqOlma from "../../public/assets/png/newSariqOlma.png";
-import newBodom from "../../public/assets/png/newBodom.png";
-import newYongoq from "../../public/assets/png/newYongoq.png";
-import newPista from "../../public/assets/png/newPista.png";
+// import bodom from "../../public/assets/png/bodom.png";
+// import newOlma from "../../public/assets/png/newOlma.png";
+// import newYashilolma from "../../public/assets/png/newYashilolma.png";
+// import newSariqOlma from "../../public/assets/png/newSariqOlma.png";
+// import newBodom from "../../public/assets/png/newBodom.png";
+// import newYongoq from "../../public/assets/png/newYongoq.png";
+// import newPista from "../../public/assets/png/newPista.png";
 
 const mevalar = [
   {
