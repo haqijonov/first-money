@@ -1,61 +1,54 @@
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Links() {
   const { t } = useTranslation();
   return (
     <div className="hidden gap-24 lg:flex">
-      <div className="flex flex-col gap-6">
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            isActive ? "border-b-2 border-white text-white" : "text-gray-500"
-          }
-        >
-          {t("home")}
-        </NavLink>
-        <NavLink
+      <div className="flex flex-col items-start gap-4">
+        <h3 className="mb-2 text-2xl font-semibold capitalize">страницы</h3>
+        <Link
           to="/about"
           className={({ isActive }) =>
             isActive ? "border-b-2 border-white text-white" : "text-gray-500"
           }
         >
           {t("about")}
-        </NavLink>
-        <NavLink
+        </Link>
+        <Link
           to="/service-brands"
           className={({ isActive }) =>
             isActive ? "border-b-2 border-white text-white" : "text-gray-500"
           }
         >
           {t("serviceBrands")}
-        </NavLink>
-      </div>
-      <div className="flex flex-col items-end gap-6">
-        <NavLink
+        </Link>
+        {/* </div> */}
+        {/* <div className="flex flex-col items-end gap-6"> */}
+        <Link
           to="/products"
           className={({ isActive }) =>
             isActive ? "border-b-2 border-white text-white" : "text-gray-500"
           }
         >
           {t("products")}
-        </NavLink>
-        <NavLink
+        </Link>
+        <Link
           to="/design-service"
           className={({ isActive }) =>
             isActive ? "border-b-2 border-white text-white" : "text-gray-500"
           }
         >
           {t("portfolio")}
-        </NavLink>
-        <NavLink
+        </Link>
+        <Link
           to="/contact"
           className={({ isActive }) =>
             isActive ? "border-b-2 border-white text-white" : "text-gray-500"
           }
         >
           {t("contact")}
-        </NavLink>
+        </Link>
       </div>
     </div>
   );

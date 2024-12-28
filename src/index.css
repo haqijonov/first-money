@@ -151,3 +151,8 @@
   margin: 0 0.5rem;
   animation: bounce;
 }
+
+.info-item:hover p,
+.info-item:hover i {
+  color: white;
+}
