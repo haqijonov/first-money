@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Olma from "../../public/assets/png/apple.png";
-import Anor from "../../public/assets/png/anor.png";
+import Gaynoli from "../../public/assets/png/gaynoli.png";
+import Mayiz from "../../public/assets/png/mayiz.png";
 import qurutilganorik from "../../public/assets/png/quritilganorik.png";
-import Orik from "../../public/assets/png/orik.png";
+import Orik from "../../public/assets/png/orikcha.png";
 import holmeva from "../../public/assets/png/holmeva.png";
 import quruqmeva from "../../public/assets/png/quruqmeva.png";
-import QizilShaftoli from "../../public/assets/png/qizil-shaftoli.png";
-import Uzum from "../../public/assets/png/uzum.png";
+import Oorik from "../../public/assets/png/oorik.png";
+import qoramayiz from "../../public/assets/png/qoramayiz.png";
 import qurutilganOrik from "../../public/assets/png/qurutilganOrik.png";
 import bodom from "../../public/assets/png/bodom.png";
 import newOlma from "../../public/assets/png/newOlma.png";
@@ -23,18 +23,18 @@ import pista from "../../public/assets/png/pista.png";
 const mevalar = [
   {
     id: 1,
-    mainImg: Olma,
-    title: "Olma",
+    mainImg: Gaynoli,
+    title: "Sliva",
     slug: "Olma",
     info: {
       data: "Olmaning FUJION navi",
-      thumbnails: [Olma],
+      // thumbnails: [Olma],
     },
   },
   {
     id: 2,
-    mainImg: Anor,
-    title: "Anor",
+    mainImg: Mayiz,
+    title: "Mayiz",
   },
   {
     id: 3,
@@ -53,13 +53,13 @@ const mevalar = [
   },
   {
     id: 6,
-    mainImg: QizilShaftoli,
-    title: "Qizil shaftoli",
+    mainImg: Oorik,
+    title: "O'rik",
   },
   {
     id: 7,
-    mainImg: Uzum,
-    title: "Uzum",
+    mainImg: qoramayiz,
+    title: "Qora mayiz",
   },
   {
     id: 8,
