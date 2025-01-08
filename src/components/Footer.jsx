@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link, NavLink } from "react-router-dom";
 import Socials from "./Socials";
-// import Logo from "/assets/png/whiteLogo.png";
+import Logo from "/assets/png/AsosiLogo.png";
 import Links from "./Links";
 
 export default function Footer() {
@@ -15,7 +15,7 @@ export default function Footer() {
               className="mb-3 font-pacifico text-[22px] text-white md:text-[32px]"
               to="/"
             >
-              Kazim Ogli Agro
+              <img src={Logo} alt="logo" width="100" height="100" />
             </Link>
             <Socials />
           </div>
@@ -66,7 +66,7 @@ export default function Footer() {
         {/* SOCIALS */}
         <div className="flex items-center justify-between border-t-[1.15px] border-footer-border-cl py-5 text-[12px]">
           <span className="flex flex-col gap-5 lg:flex-row">
-            <span>An Apple</span>
+            <span>Kazim Ogli Agro</span>
             <span>
               <small className="font-medium">&copy;</small>{" "}
               {new Date().getFullYear()} {t("privacy")}

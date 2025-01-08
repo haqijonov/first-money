@@ -6,7 +6,7 @@ import PhoneMinIcon from "/assets/svg/telephoneGreen.png";
 import Location from "/assets/svg/locationGreen.png";
 import ArrowLeft from "/assets/svg/arrow-left.svg";
 import Burger from "/assets/svg/burger.svg";
-import Logo from "/assets/png/green logo.png";
+import AsosiLogo from "/assets/png/AsosiLogo.png";
 import { useTranslation } from "react-i18next";
 import { useRef } from "react";
 import LanguageToggler from "./LanguageToggler";
@@ -47,10 +47,10 @@ export default function Header() {
     <header id="header" className="bg-white pb-4 pt-4 ">
       <div className="base-container flex items-center">
         <Link
-          className="font-pacifico mr-auto text-[22px] text-orange md:text-[32px]"
+          className="mr-auto font-pacifico text-[22px] text-orange md:text-[32px]"
           to="/"
         >
-          Kazim Ogli Agro
+          <img src={AsosiLogo} alt="logo" width="100" height="100" />
         </Link>
         <a className="btn-orange-phone mr-3 md:hidden" href="tel:+998903698777">
           {t("connection")}
@@ -126,8 +126,8 @@ export default function Header() {
             <Link to="/">
               <img
                 className="mar h-8 w-[104px] object-contain"
-                src={Logo}
-                alt="Kork logo"
+                src={AsosiLogo}
+                alt=" logo"
               />
             </Link>
             <a href="#location">
