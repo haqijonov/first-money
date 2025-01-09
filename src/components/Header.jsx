@@ -52,12 +52,12 @@ export default function Header() {
         >
           <img src={AsosiLogo} alt="logo" width="100" height="100" />
         </Link>
-        <a className="btn-orange-phone mr-3 md:hidden" href="tel:+998903698777">
+        <a className="btn-orange-phone mr-3 md:hidden" href="tel:+998916639111">
           {t("connection")}
         </a>
         <a
           className="mr-6 hidden items-center gap-1 text-base font-medium md:flex"
-          href="tel:+998903698777"
+          href="tel:+998916639111"
         >
           <img
             className="h-5 w-5"
@@ -65,7 +65,7 @@ export default function Header() {
             alt=""
             aria-hidden="true"
           />
-          +99890 369 87 77
+          +99891 663 91 11
         </a>
         <div className="hidden md:block">
           <LanguageToggler />
@@ -78,7 +78,7 @@ export default function Header() {
         </a>
         <a
           className="btn-orange hidden w-[200px] md:block"
-          href="tel:+998903698777"
+          href="tel:+998916639111"
         >
           {t("connection")}
         </a>
@@ -183,7 +183,7 @@ export default function Header() {
                   src="./assets/svg/phone-min.svg"
                   alt="tel-icon"
                 />
-                <a className="text-sm font-normal" href="tel:+998903698777">
+                <a className="text-sm font-normal" href="tel:+998916639111">
                   +99890 369 87 77
                 </a>
               </div>
