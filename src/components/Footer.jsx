@@ -56,7 +56,7 @@ export default function Footer() {
                 className="block text-lg font-semibold"
                 href="mailto: arkhod_gss@mail.ru"
               >
-                arkhod_gss@mail.ru
+                farkhod_gss@mail.ru
               </a>
             </div>
 

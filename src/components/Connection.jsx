@@ -16,8 +16,8 @@ export default function Connection() {
     {
       img: Phone,
       title: t("telephone"),
-      text: "+99890 369 87 77",
-      path: "tel:+998903698777",
+      text: "+99891 663 91 11 ",
+      path: "tel:+998916639111 ",
     },
     {
       img: Location,
@@ -43,24 +43,32 @@ export default function Connection() {
         </button>
         <button
           onClick={() => setFilial("uz")}
-          className={`border-slate-200 ${filial == "uz" ? "bg-orange text-white" : "text-slate-500"} rounded-e-2xl border px-3 py-2 max-[360px]:text-[12px] sm:px-5`}
+          className={`border-slate-200 ${filial == "uz" ? "bg-orange text-white" : "text-slate-500"}  border px-3 py-2 max-[360px]:text-[12px] sm:px-5`}
         >
           Узбекский филиал
         </button>
+        <button
+          onClick={() => setFilial("finan")}
+          className={`border-slate-200 ${filial == "finan" ? "bg-orange text-white" : "text-slate-500"} rounded-e-2xl border px-3 py-2 max-[360px]:text-[12px] sm:px-5`}
+        >
+          Финансовый директор
+        </button>
       </div>
       <div className="grid gap-3 text-start sm:grid-cols-2">
-        <div className="border-slate-200 info-item rounded-2xl border border-orange px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-ee-[40px]">
+        <div className="info-item rounded-2xl border border-orange border-slate-200 px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-ee-[40px]">
           <p className="text-slate-500 max-md:text-sm">
             <i className="fa fa-user-tie me-1 text-orange"></i>
-            {info[filial].directorType == "director"
+            {info[filial].directorType === "director"
               ? "Генеральный директор"
-              : "Филиал директори"}
+              : info[filial].directorType === "finansviy"
+                ? "Финансовый директор"
+                : "Филиал директори"}
           </p>
           <h3 className="text-lg font-semibold md:max-w-[250px] md:text-xl">
             {info[filial].director}
           </h3>
         </div>
-        <div className="border-slate-200 info-item rounded-2xl  border px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-es-[40px]">
+        <div className="info-item rounded-2xl border  border-slate-200 px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-es-[40px]">
           <p className="text-slate-500 max-md:text-sm">
             <i className="fa fa-location-dot me-1 text-orange"></i>
             Офис адреси
@@ -71,7 +79,7 @@ export default function Connection() {
         </div>
         <a
           href={`mailto: ${info[filial].email}`}
-          className="border-slate-200 info-item block rounded-2xl border px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-se-[40px]"
+          className="info-item block rounded-2xl border border-slate-200 px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-se-[40px]"
         >
           <p className="text-slate-500 max-md:text-sm">
             <i className="fa fa-envelope me-1 text-orange"></i>
@@ -83,7 +91,7 @@ export default function Connection() {
         </a>
         <a
           href={`tel: ${info[filial].phone}`}
-          className="border-slate-200 info-item block rounded-2xl border px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-ss-[40px]"
+          className="info-item block rounded-2xl border border-slate-200 px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-ss-[40px]"
         >
           <p className="text-slate-500 max-md:text-sm">
             <i className="fa fa-phone text-orange"></i> Наш номер телефона
@@ -124,7 +132,7 @@ const info = {
     email: "farkhod_gss@mail.ru",
     director: "Мавланов Фарходжон Хабибидинович",
     directorType: "manager",
-    phone: "+998903698777",
+    phone: "+99891 663 91 11",
     address: "Узбекистон овози кучаси 6-уй, 51 хонадон",
   },
   ru: {
@@ -132,6 +140,13 @@ const info = {
     director: "Казымов Закир Казым оглы",
     directorType: "director",
     phone: "+79221334466",
+    address: "Улица голос Узбекистана дом 6, квартира 51",
+  },
+  finan: {
+    email: "farkhod_gss@mail.ru",
+    director: "Шералиев Муротжон",
+    directorType: "finansviy",
+    phone: "+99891 125 41 81",
     address: "Улица голос Узбекистана дом 6, квартира 51",
   },
 };
