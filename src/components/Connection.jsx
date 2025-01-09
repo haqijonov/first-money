@@ -36,14 +36,8 @@ export default function Connection() {
       </h2>
       <div className="mb-8 max-sm:text-sm">
         <button
-          onClick={() => setFilial("ru")}
-          className={`border-slate-200 ${filial == "ru" ? "bg-orange text-white" : "text-slate-500"} rounded-s-2xl border border-e-0 px-3 py-2 max-[360px]:text-[12px] sm:px-5`}
-        >
-          Главный филиал
-        </button>
-        <button
           onClick={() => setFilial("uz")}
-          className={`border-slate-200 ${filial == "uz" ? "bg-orange text-white" : "text-slate-500"}  border px-3 py-2 max-[360px]:text-[12px] sm:px-5`}
+          className={`border-slate-200 ${filial == "uz" ? "bg-orange text-white" : "text-slate-500"} rounded-s-2xl  border px-3 py-2 max-[360px]:text-[12px] sm:px-5`}
         >
           Узбекский филиал
         </button>
