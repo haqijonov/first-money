@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 export default function Connection() {
   const { t } = useTranslation();
-  const [filial, setFilial] = useState("ru");
+  const [filial, setFilial] = useState("uz");
   const connect = [
     {
       img: Email,
@@ -83,17 +83,27 @@ export default function Connection() {
             {info[filial].email}
           </h3>
         </a>
-        <a
-          href={`tel: ${info[filial].phone}`}
-          className="info-item block rounded-2xl border border-slate-200 px-5 py-7 shadow transition-all hover:bg-orange hover:text-white sm:rounded-ss-[40px]"
-        >
-          <p className="text-slate-500 max-md:text-sm">
-            <i className="fa fa-phone text-orange"></i> Наш номер телефона
-          </p>
-          <h3 className="text-lg font-semibold md:text-xl">
-            {info[filial].phone}
-          </h3>
-        </a>
+        <div className="info-item flex justify-between gap-3 rounded-2xl border border-slate-200 px-5 py-7 shadow transition-all hover:bg-orange hover:text-white max-lg:flex-col sm:rounded-ss-[40px]">
+          <a href={`tel: ${info[filial].phone}`}>
+            <p className="text-slate-500 max-md:text-sm">
+              <i className="fa fa-phone text-orange"></i> Наш номер телефона
+            </p>
+            <h3 className="text-lg font-semibold md:text-xl">
+              {info[filial].phone}
+            </h3>
+          </a>
+          <a
+            href={`https://wa.me/${info[filial].whatsapp.split(" ").join("")}`}
+            target="_blank"
+          >
+            <p className="text-slate-500 max-md:text-sm">
+              <i className="fab fa-whatsapp text-orange"></i> Whatsapp
+            </p>
+            <h3 className="text-lg font-semibold md:text-xl">
+              {info[filial].whatsapp}
+            </h3>
+          </a>
+        </div>
       </div>
       {/* <ul className="grid auto-cols-auto items-center justify-center gap-[30px] lg:grid-cols-3">
         {connect.map(({ title, img, text, path }) => {
@@ -127,19 +137,14 @@ const info = {
     director: "Мавланов Фарходжон Хабибидинович",
     directorType: "manager",
     phone: "+99891 663 91 11",
+    whatsapp: "+99890 844 21 11",
     address: "Узбекистон овози кучаси 6-уй, 51 хонадон",
-  },
-  ru: {
-    email: "farkhod_gss@mail.ru",
-    director: "Казымов Закир Казым оглы",
-    directorType: "director",
-    phone: "+79221334466",
-    address: "Улица голос Узбекистана дом 6, квартира 51",
   },
   finan: {
     email: "farkhod_gss@mail.ru",
     director: "Шералиев Муротжон",
     directorType: "finansviy",
+    whatsapp: "+99890 844 31 11",
     phone: "+99891 125 41 81",
     address: "Улица голос Узбекистана дом 6, квартира 51",
   },
