@@ -36,18 +36,18 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="mb-2 text-2xl font-semibold">Контакты</h3>
             <div>
-              <span className="text-gray-500 text-sm">
-                Генеральный директор
-              </span>
-              <p className="text-lg font-semibold">Казымов Закир Казым оглы</p>
+              <span className="text-gray-500 text-sm">Филиал директори</span>
+              <p className="text-lg font-semibold">
+                Мавланов Фарход Хабибидинович
+              </p>
             </div>
             <div>
               <p className="text-gray-500 text-sm">Номер телефона директора</p>
               <a
                 className="block text-lg font-semibold"
-                href="tel: +79221334466"
+                href="tel: +998911254181"
               >
-                +79221334466
+                +99891 125 41 81
               </a>
             </div>
             <div>

@@ -24,52 +24,52 @@ const mevalar = [
   {
     id: 1,
     mainImg: Gaynoli,
-    title: "Sliva",
-    slug: "Olma",
+    title: "sliva",
+    slug: "sliva",
     info: {
-      data: "Olmaning FUJION navi",
+      data: "slivaning FUJION navi",
       // thumbnails: [Olma],
     },
   },
   {
     id: 2,
     mainImg: Mayiz,
-    title: "Mayiz",
+    title: "mayiz",
   },
   {
     id: 3,
     mainImg: qurutilganorik,
-    title: "O'rik",
+    title: "orik",
   },
   {
     id: 4,
     mainImg: Orik,
-    title: "O'rik",
+    title: "orik2",
   },
   {
     id: 5,
     mainImg: holmeva,
-    title: "O'rik",
+    title: "orik",
   },
   {
     id: 6,
     mainImg: Oorik,
-    title: "O'rik",
+    title: "orik",
   },
   {
     id: 7,
     mainImg: qoramayiz,
-    title: "Qora mayiz",
+    title: "qoraMayiz",
   },
   {
     id: 8,
     mainImg: quruqmeva,
-    title: "O'rik",
+    title: "orik",
   },
   {
     id: 9,
     mainImg: qurutilganOrik,
-    title: "O'rik",
+    title: "orik",
   },
   {
     id: 10,
@@ -79,32 +79,32 @@ const mevalar = [
   {
     id: 11,
     mainImg: newOlma,
-    title: "Qizil Olma",
+    title: "qizilOlma",
   },
   {
     id: 12,
     mainImg: yashilolma,
-    title: "Yashil Olma",
+    title: "yashilOlma",
   },
   {
     id: 13,
     mainImg: sariqolma,
-    title: "Sariq Olma",
+    title: "sariqOlma",
   },
   {
     id: 14,
     mainImg: yeryongoq,
-    title: "Yer Yong'oq",
+    title: "yerYongoq",
   },
   {
     id: 15,
     mainImg: yongoq,
-    title: "Yong'oq",
+    title: "yongoq",
   },
   {
     id: 16,
     mainImg: pista,
-    title: "Pista",
+    title: "pista",
   },
 ];
 
@@ -158,7 +158,7 @@ export default function ProductsList() {
           className="mb-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4"
         >
           {mevalar?.map((item) => {
-            console.log(item);
+            // console.log(item);
             return (
               <Link to={`/batafsil/${item.slug}`}>
                 <motion.li

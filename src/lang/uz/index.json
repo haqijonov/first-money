@@ -35,7 +35,7 @@
   "tShirts": "Futbolkalar",
   "snacks": "Nimchalar",
   "korkCompany": "AN APPLE",
-  "korkCompanyText": "«An Apple» kompaniyasi 2020-yilda tashkil etilgan. Bizning kompaniyamiz sifatli, yangi va ekologik toza mevalarni eksport qilishga ixtisoslashgan. Dunyo bo'ylab mijozlarimizni sog'lom mahsulotlar bilan ta'minlashga intilamiz.",
+  "korkCompanyText": "«An Apple» kompaniyasi 2024-yilda tashkil etilgan. Bizning kompaniyamiz sifatli, yangi va ekologik toza mevalarni eksport qilishga ixtisoslashgan. Dunyo bo'ylab mijozlarimizni sog'lom mahsulotlar bilan ta'minlashga intilamiz.",
   "korkCompanyText2": "Biz, o'z sohasida yetakchi bo‘lgan kompaniyamiz, xalqaro bozorlar uchun sifatli va ekologik toza mevalar yetkazib berishga ixtisoslashganmiz. Mahsulotlarimizni yetishtirishdan boshlab, ularni jo‘natishgacha bo‘lgan har bir jarayonni nazorat qilamiz. Har bir meva o‘zining tabiiy ta'mi va sifatini saqlab qolishi uchun maxsus saqlash va tashish shartlarini ta'minlaymiz. Mijozlarimizga ishonchli hamkor bo‘lish va ular kutganidan yuqori darajada xizmat ko‘rsatish bizning asosiy maqsadimiz.",
   "korkCompanyMedia": "DMF kompaniyasi (Daromad Munira Fayz) maxsus kiyim va ish poyabzallarini ishlab chiqadi va ishlab chiqaradi, shaxsiy himoya vositalari va jahonning yetakchi brendlaridan tegishli mahsulotlarni yetkazib beradi. Assortimentda mehnat va faol dam olish, iqtisodiyotning barcha tarmoqlari va har qanday ish sharoitlari uchun oʻn mingdan ortiq mahsulotlar mavjud",
   "thorough": "Ba’tafsil",
@@ -60,5 +60,17 @@
   "tolstovka": "Tolstovka",
   "privacy": "Barcha huquqlar ximoyalangan",
   "policy": "Maxfiylik siyosati",
-  "aboutDesignText": "Yuqori sifatga ega mahsulot yetkazib berishdan tashqari biz sizga bepul dizayn xizmatini va kiyim xususiyatlari haqida ma’lumotlarni taqdim qilamiz. Toʻgʻri tanlov qilishda qiynalsangiz maslahatchilarimiz sizga bu borada yordam beradi."
+  "aboutDesignText": "Yuqori sifatga ega mahsulot yetkazib berishdan tashqari biz sizga bepul dizayn xizmatini va kiyim xususiyatlari haqida ma’lumotlarni taqdim qilamiz. Toʻgʻri tanlov qilishda qiynalsangiz maslahatchilarimiz sizga bu borada yordam beradi.",
+  "sliva": "Sliva",
+  "mayiz": "Mayiz",
+  "orik": "O'rik",
+  "orik2": "Kuraga danakli ",
+  "qoraMayiz": "Qora Mayiz",
+  "bodom": "Bodom",
+  "qizilOlma": "Qizil Olma",
+  "yashilOlma": "Yashil Olma",
+  "sariqOlma": "Sariq Olma",
+  "yerYongoq": "Yer Yong'oq",
+  "yongoq": "Yong'oq",
+  "pista": "Pista"
 }
