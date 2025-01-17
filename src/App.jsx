@@ -5,8 +5,8 @@ import RootLayouts from "./layouts/RootLayouts";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import ServiceBrands from "./pages/ServiceBrands";
-// import SingleMain from "./pages/SingleMain";
-// import Portfolio from "./pages/Portfolio";
+import SingleMain from "./pages/SingleMain";
+import Portfolio from "./pages/Portfolio";
 
 export default function App() {
   const routes = createBrowserRouter([
